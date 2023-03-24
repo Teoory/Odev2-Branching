@@ -5,7 +5,7 @@ import qrcode
 qr = qrcode.QRCode(
     version=1,
     box_size=15,
-    border=5
+    border=0
 )
 
 data = 'https://oyunveuygulamaakademisi.com'
